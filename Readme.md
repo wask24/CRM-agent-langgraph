@@ -27,5 +27,5 @@ Python 3.11 is recommended for compatibility with the uvx runtime
 **What is uvx?** 🧠
 uvx is a command-line tool designed to run Python packages and scripts within isolated, reproducible environments .
 
-
+## summary 
 This Mini-Nudge Agent is a prototype. It has the potential to become more intelligent and incorporate additional advanced features, laying the foundation for a powerful and scalable sales assistant.
