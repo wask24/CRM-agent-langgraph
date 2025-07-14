@@ -9,8 +9,9 @@ This project builds an intelligent Mini-Nudge Agent leveraging OpenAI, LangChain
 - **Agent:** Implements a React agent via LangGraph that can both reason and act, making it ideal for processing dynamic business data and providing actionable insights.
 - **Goal:** Automate the detection of urgent deals and generate tailored nudges to improve sales follow-up effectiveness.
 ## General Architecture
-# General Architecture
 ![Nudge Agent Architecture](static/nudge_agent.png)
+
+This proposed architecture enables a simple agent startup and allows it to autonomously identify stalled deals. It leverages integrated tools—such as stalled deal detection, email tone analysis, and reply speed measurement—to suggest the most appropriate next action.
 ## Setup
 
 1. Clone the repository.
