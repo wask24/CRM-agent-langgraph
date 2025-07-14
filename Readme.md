@@ -13,7 +13,7 @@ This project builds an intelligent Mini-Nudge Agent leveraging OpenAI, LangChain
 
 This proposed architecture enables a simple agent startup and allows it to autonomously identify stalled deals. It leverages integrated tools—such as stalled deal detection, email tone analysis, and reply speed measurement—to suggest the most appropriate next action.
 ## Setup
-
+Python 3.11 is recommended for compatibility with the uvx runtime.
 1. Clone the repository.
 2. Create a `.env` file in the project root directory with your OpenAI API key:
  ```bash
