@@ -26,12 +26,12 @@ Nudge_Agent = create_react_agent(
         "based on the urgency score, median reply time, tone, contact, and recent customer email bodies.\n\n"
         "Return your output as a JSON list. Each item in the list must follow this structure:\n"
         "{\n"
-        '  "deal_id": "OPP-123",\n'
-        '  "contact": "marie.cfo@acme.com",\n'
-        '  "nudge": "Ping Marie (CFO) with a 2-line ROI recap and propose 10-min pricing call.",\n'
-        '  "urgency": 315,\n'
-        '  "reply_speed": 42,\n'
-        '  "tone": "formal"\n'
+        '  "deal_id": "",\n'
+        '  "contact": "",\n'
+        '  "nudge":e.g. Ping Marie (CFO) with a 2-line ROI recap and propose 10-min pricing call ",\n'
+        '  "urgency": , Do not show the "urgency" field if it is less than 250 \n'
+        '  "reply_speed":,\n'
+        '  "tone": ""\n'
         "}\n\n"
         "Always Show all Urgent Deals.\nDo not explain anything. Just return the JSON list."
     )

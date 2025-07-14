@@ -36,8 +36,5 @@ def calculate_urgent_deals(csv_path: str) -> List[Dict[str, Union[str, float]]]:
     # Compute urgency score = idle_days × (amount_eur / 1000)
     df['urgency'] = df['idle_days'] * (df['amount_eur'] / 1000)
 
-    # Keep only deals where urgency > 250
-    urgent_df = df[df['urgency'] > 250]
-
     # Return a list of dictionaries containing deal_id and urgency
-    return urgent_df[['deal_id', 'urgency']].to_dict(orient='records')
+    return df[['deal_id', 'urgency']].to_dict(orient='records')

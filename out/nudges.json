@@ -2,17 +2,17 @@
   {
     "deal_id": "OPP-123",
     "contact": "marie.cfo@acme.com",
-    "nudge": "Ping Marie (CFO) with a 2-line ROI recap and propose 10-min pricing call.",
-    "urgency": 810,
-    "reply_speed": 45,
+    "nudge": "Ping Marie (CFO) with a 2-line ROI recap and propose 10-min pricing call",
+    "urgency": 855.0,
+    "reply_speed": 45.0,
     "tone": "formal"
   },
   {
     "deal_id": "OPP-125",
     "contact": "wassim@addvocate.ai",
-    "nudge": "Follow up with Wassim with a friendly message and suggest a pricing discussion at his convenience.",
-    "urgency": 1440,
-    "reply_speed": 3090,
-    "tone": "casual"
+    "nudge": "Follow up with Wassim at Addvocate.ai for pricing details and schedule a meeting for next month",
+    "urgency": 1440.0,
+    "reply_speed": 3090.0,
+    "tone": "formal"
   }
 ]
