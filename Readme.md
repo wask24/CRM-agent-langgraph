@@ -10,7 +10,7 @@ This project builds an intelligent Mini-Nudge Agent leveraging OpenAI, LangChain
 - **Goal:** Automate the detection of urgent deals and generate tailored nudges to improve sales follow-up effectiveness.
 ## General Architecture
 # General Architecture
-![Nudge Agent Architecture](static/nudge_agent.png)
+![Nudge Agent Architecture](nudge_agent.png)
 ## Setup
 
 1. Clone the repository.
