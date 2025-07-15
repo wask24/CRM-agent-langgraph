@@ -17,7 +17,7 @@ def urgent_deal_summary() -> str:
     - full chain of customer messages
     This output is formatted for display, not for structured data consumption.
     """
-    # Step 1: Load urgent deals based on CSV data (idle_days > 7, urgency > 250)
+    # Step 1: Load urgent deals based on CSV data (idle_days > 7)
     urgent_deals = calculate_urgent_deals("data/crm_events.csv")
     # Step 2: Extract deal IDs for filtering email data
     urgent_ids = {d['deal_id'] for d in urgent_deals}
